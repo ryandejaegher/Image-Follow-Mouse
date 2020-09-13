@@ -24,7 +24,8 @@ buttons.forEach(button =>{
 
 var template = document.createElement('template');
 template.innerHTML = /*html*/`
-<div></div>
+
+<slot></slot>
 `
     
 })();
