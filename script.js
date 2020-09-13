@@ -38,6 +38,7 @@ template.innerHTML = /*html*/`
         width: 600px;
         height: 600px;
         object-fit: cover;
+        z-index: 1
     }
 </style>
 
