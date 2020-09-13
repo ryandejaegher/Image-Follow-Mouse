@@ -37,7 +37,7 @@ figure {
   display: none;
   margin: 0;
   opacity: 0;
-  transition-timing: 0.5s;
+  transition-timing: 1s;
   transition-property: top, left, opacity;
 
 }
