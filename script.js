@@ -59,6 +59,7 @@ div {
   bottom: 0;
   width: 50%;
   z-index:-2;
+  pointer-events: none;
 }
 
     ::slotted(*) {
