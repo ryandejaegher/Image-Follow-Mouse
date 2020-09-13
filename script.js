@@ -22,6 +22,9 @@ buttons.forEach(button =>{
 
 (function(){
 
+var template = document.createElement('template');
+template.innerHTML = `
 
+`
     
 })();
