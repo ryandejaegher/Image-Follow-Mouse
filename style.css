@@ -4,6 +4,11 @@ body {
     place-items: center;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 button {
     padding: 12px 24px;
