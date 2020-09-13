@@ -52,12 +52,12 @@ img {
 }
 
 div {
-    position:absolute;
-    top: 0;
+position:absolute;
+top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 50%; 
   z-index:-2;
   pointer-events: none;
 }
