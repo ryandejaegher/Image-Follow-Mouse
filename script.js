@@ -8,7 +8,7 @@ buttons.forEach(button =>{
         img.style.transform = `translate(${e.pageX/2}px, ${e.pageY/2}px)`;
 
     })
-    button.addEventListener('mousemove', function(e){
+    button.addEventListener('mouseout', function(e){
         console.log(button)
         console.log(e);
         img.src = button.dataset.img;
