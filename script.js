@@ -35,7 +35,9 @@ template.innerHTML = /*html*/`
         position: absolute;
         top: 0;
         left: 0;
-        w
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
     }
 </style>
 
