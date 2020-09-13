@@ -43,6 +43,6 @@ img {
     height: 400px;
     z-index:-1;
     background: lightblue;
-    tr
+    transform:translate(-50%,-50%)
 
 }
