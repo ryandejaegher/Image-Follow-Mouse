@@ -56,7 +56,7 @@ class HoverText extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
 
         this.addEventListener('mouseover', e =>{
-            this.shadowRoot.querySelector('img').src = this.getAttribute('image')
+            
         })
     }
 
@@ -68,6 +68,7 @@ class HoverText extends HTMLElement {
         // Reflect the value of the image property as an HTML attribute.
         if (val) {
           this.setAttribute('image', val);
+          this.shadowRoot.querySelector('img').src = this.getAttribute('image')
         } else {
           this.removeAttribute('image');
         }
