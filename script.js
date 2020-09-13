@@ -35,13 +35,14 @@ figure {
   position: relative;
   padding-bottom: 56.25%;
   display: block;
+  width: 75%;
   margin: 0;
 }
 
 img {
   display: block;
   position: absolute;
-  width: 59%;
+  width: 100%;
   max-width: 100%;
   height: 100%;
   display: block;
