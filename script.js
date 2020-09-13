@@ -45,8 +45,8 @@ figure {
   left: window.innerWidth/2 + 'px';
   margin: 0;
   opacity: 0;
-  transition-property:
-
+  transition-property: opacity, top, left;
+  
 }
 
 img {
