@@ -46,7 +46,7 @@ figure {
   margin: 0;
   opacity: 0;
   transition-property: opacity, top, left;
-  transition-duration: 10s, 1s, 1s;
+  transition-duration: 2, 1s, 1s;
 }
 
 img {
