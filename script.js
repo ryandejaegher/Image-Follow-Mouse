@@ -85,14 +85,14 @@ class HoverText extends HTMLElement {
             var mouseY = e.clientY;
             this.shadowRoot.querySelector('figure').style.opacity = 1;
             setTimeout(function() {
-                self=this;
-                self.querySelector('figure').style.left = `${mouseX}px`;
-        self.querySelector('figure').style.top = `${mouseY}px`;
-            },120)
+                
+            })
         })
     }
 
-    
+    updatePosition(){
+        this.shadowRoot.querySelector('figure').style.left = `${mouseX}px`;
+    this.shadowRoot.querySelector('figure').style.top = `${mouseY}px`;
 
     static get observedAttributes() { return ['image']; }
 
