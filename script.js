@@ -80,11 +80,6 @@ class HoverText extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
         
         this.hoverImage = this.shadowRoot.querySelector('img');
-
-        this.updateImagePosition() {
-            this.shadowRoot.querySelector('figure').style.left = `${mouseX}px`;
-            this.shadowRoot.querySelector('figure').style.top = `${mouseY}px`;
-        }
         this.addEventListener('mousemove', e =>{
             var mouseX = e.clientX;
             var mouseY = e.clientY;
@@ -93,7 +88,10 @@ class HoverText extends HTMLElement {
         })
     }
 
-    
+    updateImagePosition() {
+        this.shadowRoot.querySelector('figure').style.left = `${mouseX}px`;
+        this.shadowRoot.querySelector('figure').style.top = `${mouseY}px`;
+    }
 
     static get observedAttributes() { return ['image']; }
 
