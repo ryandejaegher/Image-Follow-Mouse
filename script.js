@@ -45,7 +45,7 @@ figure {
   left: window.innerWidth/2 + 'px';
   margin: 0;
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: opacity 0.3s ease;
 
 }
 
