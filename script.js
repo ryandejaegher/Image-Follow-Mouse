@@ -36,7 +36,7 @@ figure {
   padding-bottom: 100%;
   display: none;
   margin: 0;
-  transition: all 0.2s ease;
+  transition: all 1s ease;
 
 }
 
