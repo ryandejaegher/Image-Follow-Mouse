@@ -4,6 +4,6 @@ buttons.forEach(button =>{
     button.addEventListener('mouseover', function(e){
         console.log(button)
         console.log(e);
-        img.src = button.dataset.im
+        img.src = button.dataset.img
     })
 })
