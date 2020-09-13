@@ -51,7 +51,7 @@ img {
 }
 
 div {
-    position:ab
+    position:absolute;
     top: 0;
   left: 0;
   right: 0;
