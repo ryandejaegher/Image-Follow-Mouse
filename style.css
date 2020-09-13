@@ -35,8 +35,8 @@ img {
 
 .block {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 400px;
     height: 400px;
     z-index:-1;
