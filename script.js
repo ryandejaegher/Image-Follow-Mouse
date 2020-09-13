@@ -46,7 +46,7 @@ figure {
   margin: 0;
   opacity: 0;
   transition-property: opacity, top, left;
-  transition-duration: .3s, .3s, .3s;
+  transition-duration: .3s, .2s, .2s;
   transition-timing-function: ease-in-out,ease-in-out,ease-in-out;
 }
 
