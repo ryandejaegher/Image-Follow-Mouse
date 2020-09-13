@@ -41,8 +41,8 @@ figure {
   padding-bottom: 100%;
   display: block;
   visibility:hidden;
-  top: 50%;
-  left: 50%;
+  top: window.innerHeight/2 + 'px';
+  left: window.innerWidth/2 + 'px';
   margin: 0;
   opacity: 0;
   transition: all 0.4s ease;
