@@ -59,6 +59,8 @@ img {
   height: 100%;
   display: block;
   object-fit: cover;
+  transform: translate(-50%,-50%);
+  z-index:-1;
 }
 
     ::slotted(*) {
