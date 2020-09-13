@@ -45,9 +45,7 @@ figure {
   left: 50%;
   margin: 0;
   opacity: 0;
-  transition-duration: 0.4s
-  transition-property: opacity;
-  transition-timing-function: ease;
+  transition: all 0.4s easel
 
 }
 
