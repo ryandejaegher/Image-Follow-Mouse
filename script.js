@@ -31,7 +31,7 @@ template.innerHTML = /*html*/`
         border: 1px solid red;
     }
 
-    img {
+    /* img {
         display: block;
         position: absolute;
         top: 0;
@@ -40,7 +40,7 @@ template.innerHTML = /*html*/`
         height: 600px;
         object-fit: cover;
         z-index: -1;
-    }
+    } */
 
     ::slotted(*) {
         z-index: 10000;
