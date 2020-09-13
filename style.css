@@ -8,6 +8,7 @@ body {
     display: grid;
     justify-content: center;
     width: 100%;
+    grid-template-columns: fr ;
 
 }
 
