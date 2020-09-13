@@ -72,7 +72,6 @@ class HoverText extends HTMLElement {
         // Reflect the value of the image property as an HTML attribute.
         if (val) {
           this.setAttribute('image', val);
-          
           console.log(val)
         } else {
           this.removeAttribute('image');
