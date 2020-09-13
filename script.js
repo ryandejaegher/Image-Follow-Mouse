@@ -5,6 +5,6 @@ buttons.forEach(button =>{
         console.log(button)
         console.log(e);
         img.src = button.dataset.img;
-        img.style.transform = `translate(${e.clientX *0.5}px, ${e.clientY}px)`;
+        img.style.transform = `translate(${e.clientX *0.5}px, ${e.clientY*0.5}px)`;
     })
 })
