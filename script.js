@@ -1,1 +1,1 @@
-doc
+var buttons = document.querySelectorAll('buttons');
