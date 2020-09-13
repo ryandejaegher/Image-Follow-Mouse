@@ -5,10 +5,10 @@ body {
 }
 
 .row {
-    display: flex;
+    display: grid;
     justify-content: center;
     width: 100%;
-    gap: 48px;
+
 }
 
 
