@@ -33,7 +33,7 @@ template.innerHTML = /*html*/`
         font-family: monospace;
         padding:12px 36px;
         min-width: 6em;
-        tex
+        text-align: center;
     }
 
 figure {
