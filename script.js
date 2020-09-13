@@ -46,6 +46,22 @@ template.innerHTML = /*html*/`
         transform: translate(-50%,-50%);
     }
 
+    figure {
+  position: relative;
+  padding-bottom: 56.25%;
+  display: block;
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
     ::slotted(*) {
         z-index: 10000;
     }
