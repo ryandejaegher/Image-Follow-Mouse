@@ -28,7 +28,8 @@ template.innerHTML = /*html*/`
 <style>
     :host {
         display: inline-block;
-        border: 1px solid red;
+        background: black;
+        co
         font-family: monospace;
         padding:12px 36px;
     }
