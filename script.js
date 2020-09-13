@@ -41,7 +41,7 @@ figure {
 img {
   display: block;
   position: absolute;
-  width: 100%;
+  width: 59%;
   max-width: 100%;
   height: 100%;
   display: block;
