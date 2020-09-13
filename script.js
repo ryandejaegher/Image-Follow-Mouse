@@ -47,7 +47,7 @@ figure {
   opacity: 0;
   transition-property: opacity, top, left;
   transition-duration: .3s, .5s, .5s;
-  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1)
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 img {
