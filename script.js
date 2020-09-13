@@ -66,7 +66,7 @@ class HoverText extends HTMLElement {
         } else {
           this.removeAttribute('image');
         }
-      }
+    }
 }
     
 })();
