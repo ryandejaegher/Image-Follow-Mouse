@@ -79,7 +79,7 @@ class HoverText extends HTMLElement {
     }
 
     connectedCallback() {
-        image.src = this.getAttribute('image')
+        this.thing.src = this.getAttribute('image')
     }
 }
 window.customElements.define('hover-text', HoverText);
