@@ -56,7 +56,7 @@ class HoverText extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
 
         this.addEventListener('mouseover', e =>{
-            
+            console.log(e)
         })
     }
 
