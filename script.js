@@ -37,6 +37,7 @@ template.innerHTML = /*html*/`
 class HoverText extends HTMLElement {
     constructor() {
         super();
+        this.attachShadow({mode:'open'})
     }
 }
     
