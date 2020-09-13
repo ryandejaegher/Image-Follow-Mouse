@@ -6,7 +6,7 @@ buttons.forEach(button =>{
         console.log(e);
         img.src = button.dataset.img;
         img.style.display ="block";
-        img.style.transform = `translate(${e.offsetX*2}px, ${e.pageY/2}px)`;
+        img.style.transform = `translate(${e.offsetX * 2}px, ${e.pageY/2}px)`;
 
     })
     button.addEventListener('mouseout', function(e){
