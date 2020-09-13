@@ -101,7 +101,7 @@ class HoverText extends HTMLElement {
             this.shadowRoot.querySelector('figure').style.opacity = '1';
         })
 
-        this.addEventListener('mouseout', e => {
+        this.addEventListener('mouseleave', e => {
             var figure = this.shadowRoot.querySelector('figure')
                 figure.style.opacity = '0';
                 figure.style.left = this.getBoundingClientRect().x + 'px';
