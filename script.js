@@ -83,12 +83,12 @@ class HoverText extends HTMLElement {
         this.addEventListener('mousemove', e => {
             var mouseX = e.clientX;
             var mouseY = e.clientY;
-            this.shadowRoot.querySelector('figure').style.opacity = 1;
+            this.shadowRoot.querySelector('figure').style.display = 'block';
             setTimeout(this.updatePosition.bind(this),600,mouseX,mouseY)
         })
 
         this.addEventListener('mouseout' e => {
-            this.shadowRoot.querySelector('figure').style.di
+            this.shadowRoot.querySelector('figure').style.display = 'none';
         })
     }
 
