@@ -9,8 +9,8 @@ buttons.forEach(button =>{
 
         document.querySelector('.block').style.left = `${e.clientX}px`; 
         document.querySelector('.block').style.top = `${e.clientY}px`;
-        document.querySelector('.block').style.left = `${e.clientX}px`; 
-        document.querySelector('.block').style.top = `${e.clientY}px`;
+        img.style.left = `${e.clientX}px`; 
+        img.style.top = `${e.clientY}px`;
 
     })
     
