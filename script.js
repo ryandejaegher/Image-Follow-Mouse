@@ -68,6 +68,6 @@ class HoverText extends HTMLElement {
         }
     }
 }
-window.customElements.define('hover-text', HoverText)
+window.customElements.define('hover-text', HoverText);
     
 })();
