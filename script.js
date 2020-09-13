@@ -72,6 +72,7 @@ class HoverText extends HTMLElement {
         if (val) {
           this.setAttribute('image', val);
           this.shadowRoot.querySelector('img').src = this.getAttribute('image')
+          console.log(val)
         } else {
           this.removeAttribute('image');
         }
