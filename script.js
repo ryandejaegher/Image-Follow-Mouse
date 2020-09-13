@@ -45,7 +45,7 @@ figure {
   left: 50%;
   margin: 0;
   opacity: 0;
-  transition: all 0.4s easel
+  transition: all 0.4s ease;
 
 }
 
