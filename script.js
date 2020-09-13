@@ -29,6 +29,7 @@ template.innerHTML = /*html*/`
     :host {
         display: inline-block;
         border: 1px solid red;
+        font-family: monospace;
     }
 
 figure {
