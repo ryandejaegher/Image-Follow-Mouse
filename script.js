@@ -37,6 +37,7 @@ figure {
   display: block;
   max-width: 50%;
   margin: 0;
+  overflow:hidden;
 }
 
 img {
