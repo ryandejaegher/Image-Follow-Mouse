@@ -44,9 +44,9 @@ figure {
   left: 50%;
   margin: 0;
   opacity: 0;
-  transition-duration: 0.4s,0.4s,0.6s;
+  /* transition-duration: 0.4s,0.4s,0.6s;
   transition-property: top, left, opacity;
-  transition-timing-function: ease,ease,ease;
+  transition-timing-function: ease,ease,ease; */
 
 }
 
