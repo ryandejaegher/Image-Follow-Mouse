@@ -60,7 +60,8 @@ img {
 </style>
 
 <slot></slot>
-<figure><img src=""></figure>
+
+<div><figure><img src=""></figure></div>
 `;
 
 class HoverText extends HTMLElement {
