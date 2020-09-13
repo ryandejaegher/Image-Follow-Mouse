@@ -50,7 +50,7 @@ img {
   transform: translate(-50%,-50%);
 }
 
-div {
+/* div {
     position:absolute;
     top: 0;
   left: 0;
@@ -60,7 +60,7 @@ div {
   height: 100%;
   background: red;
   z-index:-2;
-}
+} */
 
     ::slotted(*) {
         z-index: 10000;
