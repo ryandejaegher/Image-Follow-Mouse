@@ -37,7 +37,7 @@ figure {
   display: none;
   margin: 0;
   opacity: 0;
-  transition: all 0.5s ease;
+  transition: opacity 0.5s ease;
 
 }
 
