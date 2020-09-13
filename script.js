@@ -43,7 +43,7 @@ template.innerHTML = /*html*/`
         object-fit: cover;
         z-index: -1;
         opacity: 0.5;
-        /* transform: translate(-50%,-50%); */
+        transform: translate(-50%,-50%);
     }
 
     ::slotted(*) {
