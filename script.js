@@ -6,7 +6,7 @@ buttons.forEach(button =>{
         console.log(e);
         img.src = button.dataset.img;
         //img.style.transform = `translate(${e.pageX}px, ${e.pageY}px)`;
-        img.style.top = `${e.pageX}px`;
-        img.style.transform = `${e.pageY}px)`;
+        img.style.left = `${e.pageX}px`;
+        img.style.top = `${e.pageY}px)`;
     })
 })
