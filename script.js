@@ -42,7 +42,7 @@ figure {
   display: none;
   margin: 0;
   opacity: 0;
-  transition-duration: 0.2s,0.2s,0.3s;
+  transition-duration: 0.2s,0.2s,1s;
   transition-property: top, left, opacity;
   transition-timing-function: ease;
 
