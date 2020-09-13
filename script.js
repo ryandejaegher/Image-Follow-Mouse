@@ -40,6 +40,7 @@ template.innerHTML = /*html*/`
         height: 600px;
         object-fit: cover;
         z-index: -1;
+        opacity: 0.5;
     }
 
     ::slotted(*) {
