@@ -96,6 +96,7 @@ class HoverText extends HTMLElement {
         console.log(this)
         this.shadowRoot.querySelector('figure').style.left = `${x}px`;
         this.shadowRoot.querySelector('figure').style.top = `${y}px`;
+        this.shadowRoot.querySelector('figure').style.display = 'block';
     }
 
     static get observedAttributes() { return ['image']; }
