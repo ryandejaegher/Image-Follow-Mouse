@@ -60,7 +60,7 @@ class HoverText extends HTMLElement {
         })
     }
 
-    static get observedAttributes() { return ['c', 'l']; }
+    static get observedAttributes() { return ['image']; }
 
 
     get image() {
