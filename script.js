@@ -33,7 +33,7 @@ template.innerHTML = /*html*/`
 
 figure {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 105%;
   display: block;
   margin: 0;
 
