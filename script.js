@@ -39,6 +39,7 @@ figure {
   opacity: 0;
   transition-duration: 1s;
   transition-property: top, left, opacity;
+  transition-timing-function: ease;
 
 }
 
