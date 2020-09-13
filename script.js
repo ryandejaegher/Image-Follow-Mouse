@@ -56,7 +56,7 @@ class HoverText extends HTMLElement {
         this.attachShadow({mode:'open'})
         this.shadowRoot.appendChild(template.content.cloneNode(true));
         
-        this.image = this.shadowRoot.querySelector('img');
+        this.thing = this.shadowRoot.querySelector('img');
         this.addEventListener('mousemove', e =>{
             
         })
@@ -79,7 +79,7 @@ class HoverText extends HTMLElement {
     }
 
     connectedCallback() {
-        this.image.src = this.getAttribute('image');
+        this.thing.src = this.getAttribute('image');
     }
 }
 window.customElements.define('hover-text', HoverText);
