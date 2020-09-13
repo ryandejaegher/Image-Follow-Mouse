@@ -44,6 +44,19 @@ class HoverText extends HTMLElement {
             console.log(e)
         })
     }
+
+    get disabled() {
+        return this.hasAttribute('disabled');
+      }
+    
+      set disabled(val) {
+        // Reflect the value of the disabled property as an HTML attribute.
+        if (val) {
+          this.setAttribute('disabled', '');
+        } else {
+          this.removeAttribute('disabled');
+        }
+      }
 }
     
 })();
