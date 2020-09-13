@@ -34,6 +34,10 @@ template.innerHTML = /*html*/`
 <slot></slot>
 `;
 
-class HoverText extends HTMLElement {}
+class HoverText extends HTMLElement {
+    constructor() {
+        super();
+    }
+}
     
 })();
