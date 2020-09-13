@@ -28,5 +28,5 @@ img {
     z-index: -1;
     object-fit: cover;
     width: 600px;
-    transform-origin: top left;
+    transform-origin: cen;
 }
