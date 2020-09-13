@@ -29,6 +29,14 @@ template.innerHTML = /*html*/`
     :host {
         display: inline-block;
     }
+
+    img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        w
+    }
 </style>
 
 <slot></slot><img src="">
