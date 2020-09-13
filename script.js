@@ -41,7 +41,7 @@ template.innerHTML = /*html*/`
         z-index: 10000;
     }
 
-    :slotted(*) {
+    ::slotted(*) {
         z-index: 20000;
     }
 </style>
