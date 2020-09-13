@@ -35,6 +35,7 @@ figure {
   position: relative;
   padding-bottom: 56.25%;
   display: block;
+  max-width: 50%
   height: auto;
   margin: 0;
 }
