@@ -58,7 +58,6 @@ div {
   right: 0;
   bottom: 0;
   width: 50%;
-  background: red;
   z-index:-2;
 }
 
