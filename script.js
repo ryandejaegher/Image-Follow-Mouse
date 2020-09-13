@@ -44,6 +44,7 @@ template.innerHTML = /*html*/`
 
     ::slotted(*) {
         z-index: 10000;
+        position: relative;
     }
 </style>
 
