@@ -59,7 +59,7 @@ img {
   display: block;
   object-fit: cover;
   z-index:-1;
-  transform: translate(-50%,-50%);
+  /* transform: translate(-50%,-50%); */
 }
 
 div {
