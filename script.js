@@ -9,6 +9,7 @@ buttons.forEach(button =>{
 
         // document.querySelector('.block').style.left = `${e.clientX}px`; 
         // document.querySelector('.block').style.top = `${e.clientY}px`;
+        setTimeout(function(), )
         img.style.left = `${e.clientX}px`; 
         img.style.top = `${e.clientY}px`;
 
