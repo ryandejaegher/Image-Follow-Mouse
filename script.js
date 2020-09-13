@@ -36,7 +36,7 @@ figure {
   padding-bottom: 56.25%;
   display: block;
   margin: 0;
-  wid
+  width: 50%;
 }
 
 img {
