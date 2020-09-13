@@ -6,7 +6,7 @@ buttons.forEach(button =>{
         console.log(e);
         // img.src = button.dataset.img;
         // img.style.display ="block";
-        document.querySelector('.block').style.transform = `translate(${e.offsetX+200}px , ${e.clientY*0.5-2200}px)`;
+        document.querySelector('.block').style.transform = `translate(${e.offsetX+200}px , ${e.clientY*0.5-200}px)`;
         
 
     })
