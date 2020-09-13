@@ -30,7 +30,7 @@ template.innerHTML = /*html*/`
         display: inline-block;
     }
 
-    :host(img) {
+    img {
         display: block;
         position: absolute;
         top: 0;
