@@ -84,9 +84,10 @@ class HoverText extends HTMLElement {
             var mouseX = e.clientX;
             var mouseY = e.clientY;
             this.shadowRoot.querySelector('figure').style.opacity = 1;
-                this.shadowRoot.querySelector('figure').style.left = `${mouseX}px`;
-        this.shadowRoot.querySelector('figure').style.top = `${mouseY}px`;
-            
+            setTimeout(function() {
+                this.querySelector('figure').style.left = `${mouseX}px`;
+        this.querySelector('figure').style.top = `${mouseY}px`;
+            },120)
         })
     }
 
