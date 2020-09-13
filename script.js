@@ -53,6 +53,7 @@ figure {
 }
 
 img {
+    display: block;
   position: absolute;
   width: 100%;
   max-width: 100%;
