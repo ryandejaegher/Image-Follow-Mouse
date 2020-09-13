@@ -6,7 +6,7 @@ body {
 }
 
 body > * + * {
-    margin-left: 
+    margin-left: 36px;
 }
 
 .row {
