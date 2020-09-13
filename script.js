@@ -100,12 +100,12 @@ class HoverText extends HTMLElement {
             this.shadowRoot.querySelector('figure').style.opacity = '1';
         })
 
-    //     // this.addEventListener('mouseout', e => {
-    //     //     this.shadowRoot.querySelector('figure').style.opacity = '0';
-    //     //     this.shadowRoot.querySelector('figure').style.left = `50%`;
-    //     // this.shadowRoot.querySelector('figure').style.top = `50%`;
-    //     // })
-    // }
+        this.addEventListener('mouseout', e => {
+            this.shadowRoot.querySelector('figure').style.opacity = '0';
+            this.shadowRoot.querySelector('figure').style.left = `50%`;
+        this.shadowRoot.querySelector('figure').style.top = `50%`;
+        })
+    }
 
     updatePosition(x,y){
         this.shadowRoot.querySelector('figure').style.visibility = 'visible';
