@@ -106,7 +106,6 @@ class HoverText extends HTMLElement {
                 figure.style.opacity = '0';
                 figure.style.left = this.getBoundingClientRect().left + this.getBoundingClientRect().width + 'px';
                 figure.style.top = this.getBoundingClientRect().top + this.getBoundingClientRect().height + 'px';
-                figure.style.bottom = this.getBoundingClientRect().bottom + this.getBoundingClientRect().height + 'px';
 
         })
     }
