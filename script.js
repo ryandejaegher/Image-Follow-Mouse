@@ -105,7 +105,7 @@ class HoverText extends HTMLElement {
             var figure = this.shadowRoot.querySelector('figure')
                 figure.style.opacity = '0';
 
-                figure.style.top = -=this.getBoundingClientRect().y + 'px';
+                figure.style.top = '-'+this.getBoundingClientRect().y + 'px';
 
         })
     }
