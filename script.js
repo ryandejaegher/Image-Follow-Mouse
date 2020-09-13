@@ -60,6 +60,8 @@ class HoverText extends HTMLElement {
         })
     }
 
+    stat
+
     get image() {
         return this.hasAttribute('image');
       }
