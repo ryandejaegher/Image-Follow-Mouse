@@ -108,9 +108,10 @@ class HoverText extends HTMLElement {
     }
 
     updatePosition(x,y){
-        this.shadowRoot.querySelector('figure').style.visibility = 'visible';
-        this.shadowRoot.querySelector('figure').style.left = `${x}px`;
-        this.shadowRoot.querySelector('figure').style.top = `${y}px`;
+        var figure = this.shadowRoot.querySelector('figure')
+        figure.style.left = `${x}px`;
+        figure.style.visibility = 'visible';
+        figure.style.top = `${y}px`;
     }
 
     static get observedAttributes() { return ['image']; }
