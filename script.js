@@ -34,7 +34,7 @@ template.innerHTML = /*html*/`
 figure {
   position: relative;
   padding-bottom: 100%;
-  display: n;
+  display: none;
   margin: 0;
   
 
