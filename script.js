@@ -33,9 +33,10 @@ template.innerHTML = /*html*/`
 
 figure {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 56.25%;
   display: block;
   max-width: 50%;
+  height: auto;
   margin: 0;
 }
 
@@ -58,7 +59,7 @@ div {
   right: 0;
   bottom: 0;
   width: 100%;
-
+  height: 100%;
   background: red;
   z-index:-2;
 }
