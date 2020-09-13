@@ -34,6 +34,6 @@ template.innerHTML = /*html*/`
 <slot></slot>
 `;
 
-
+class HoverText extends HTMLElement {}
     
 })();
