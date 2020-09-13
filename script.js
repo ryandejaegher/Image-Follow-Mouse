@@ -39,7 +39,7 @@ figure {
 }
 
 img {
-    display: block;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,6 +51,7 @@ img {
   display: block;
   object-fit: cover;
   z-index:-1;
+  transform: translate(-50%,-50%);
 }
 
     ::slotted(*) {
