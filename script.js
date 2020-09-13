@@ -31,19 +31,6 @@ template.innerHTML = /*html*/`
         border: 1px solid red;
     }
 
-    img {
-        display: block;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        right: 0%
-        bottom: 0%;
-        width: 100%;
-        object-fit: cover;
-        z-index: -1;
-        opacity: 0.5;
-    }
-
 figure {
   position: relative;
   padding-bottom: 56.25%;
