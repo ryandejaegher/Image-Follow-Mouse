@@ -29,7 +29,7 @@ template.innerHTML = /*html*/`
     :host {
         display: inline-block;
         background: black;
-        co
+        color: white;
         font-family: monospace;
         padding:12px 36px;
     }
