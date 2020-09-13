@@ -37,7 +37,6 @@ figure {
   display: block;
   height: auto;
   margin: 0;
-  overflow:hidden;
 }
 
 img {
@@ -58,7 +57,7 @@ div {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background: red;
   z-index:-2;
