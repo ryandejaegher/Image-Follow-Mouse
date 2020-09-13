@@ -32,3 +32,9 @@ img {
     transform-origin: 50%;
 
 }
+
+.block {
+    position: absolute;
+    top: 0;
+    left; 0
+}
