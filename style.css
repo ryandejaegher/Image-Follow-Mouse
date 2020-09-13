@@ -9,7 +9,7 @@ body {
     justify-content: center;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    
+    grid-gap: 48px;
 
 }
 
