@@ -97,6 +97,8 @@ class HoverText extends HTMLElement {
 
         this.addEventListener('mouseleave', e => {
             this.shadowRoot.querySelector('figure').style.opacity = '0';
+            this.shadowRoot.querySelector('figure').style.left = ``;
+        this.shadowRoot.querySelector('figure').style.top = `${y}px`;
         })
     }
 
