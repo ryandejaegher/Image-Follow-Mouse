@@ -32,6 +32,8 @@ template.innerHTML = /*html*/`
 </style>
 
 <slot></slot>
-`
+`;
+
+
     
 })();
