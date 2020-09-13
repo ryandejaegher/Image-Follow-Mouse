@@ -46,7 +46,7 @@ template.innerHTML = /*html*/`
         transform: translate(-50%,-50%);
     }
 
-    figure {
+figure {
   position: relative;
   padding-bottom: 56.25%;
   display: block;
