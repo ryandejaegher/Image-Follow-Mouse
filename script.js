@@ -40,6 +40,8 @@ figure {
   position: relative;
   padding-bottom: 100%;
   display: none;
+  top: 50%;
+  left: 50%;
   margin: 0;
   opacity: 0;
   transition-duration: 0.4s,0.4s,0.6s;
