@@ -5,4 +5,3 @@ buttons.forEach(button =>{
         console.log(button)
     })
 })
-console.log('cool')
