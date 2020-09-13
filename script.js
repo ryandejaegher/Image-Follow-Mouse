@@ -14,6 +14,5 @@ buttons.forEach(button =>{
         console.log(e);
         img.src = button.dataset.img;
         img.style.display="none";
-
     })
 })
