@@ -81,7 +81,8 @@ class HoverText extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
         
         this.mouseX;
-        this.mouseY
+        this.mouseY;
+        this.updatePosition.bind(this)
         this.hoverImage = this.shadowRoot.querySelector('img');
         this.addEventListener('mousemove', e => {
             this.mouseX = e.clientX;
