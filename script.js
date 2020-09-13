@@ -42,7 +42,6 @@ template.innerHTML = /*html*/`
         object-fit: cover;
         z-index: -1;
         opacity: 0.5;
-
     }
 
 figure {
