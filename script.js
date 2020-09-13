@@ -31,7 +31,7 @@ template.innerHTML = /*html*/`
     }
 </style>
 
-<slot></slot>
+<slot></slot><img src="">
 `;
 
 class HoverText extends HTMLElement {
