@@ -52,7 +52,7 @@ class HoverText extends HTMLElement {
       set image(val) {
         // Reflect the value of the image property as an HTML attribute.
         if (val) {
-          this.setAttribute('image', '');
+          this.setAttribute('image', val);
         } else {
           this.removeAttribute('image');
         }
