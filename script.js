@@ -5,5 +5,6 @@ buttons.forEach(button =>{
         console.log(button)
         console.log(e);
         img.src = button.dataset.img;
+        img.style.tr
     })
 })
