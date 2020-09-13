@@ -12,7 +12,7 @@ buttons.forEach(button =>{
         setTimeout(function() {
             img.style.left = `${e.clientX}px`; 
         img.style.top = `${e.clientY}px`;
-        },150)
+        },60)
         
 
     })
