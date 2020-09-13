@@ -48,6 +48,7 @@ figure {
   transition-property: opacity, top, left;
   transition-duration: .2s, .5s, .5s;
   transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1),cubic-bezier(0.22, 1, 0.36, 1);
+  transform: translate(-50%,-50%);
 }
 
 img {
