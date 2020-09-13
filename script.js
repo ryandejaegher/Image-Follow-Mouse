@@ -30,7 +30,7 @@ template.innerHTML = /*html*/`
         display: inline-block;
         border: 1px solid red;
         font-family: monospace;
-        padding:12px 24px;
+        padding:12px 36px;
     }
 
 figure {
