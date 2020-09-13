@@ -85,6 +85,7 @@ class HoverText extends HTMLElement {
         this.mouseY
         this.hoverImage = this.shadowRoot.querySelector('img');
         document.addEventListener('mousemove', e => {
+            if
             this.mouseX = e.clientX;
             this.mouseY = e.clientY;
             setTimeout(this.updatePosition.bind(this),60,this.mouseX,this.mouseY)
