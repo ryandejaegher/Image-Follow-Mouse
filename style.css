@@ -43,5 +43,5 @@ img {
     height: 400px;
     z-index:-1;
     background: lightblue;
-    transform-origin: 100%, -50%;
+    transform-origin: 100%, 10%;
 }
