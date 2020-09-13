@@ -73,7 +73,7 @@ top: 0;
   width: 50%; 
   z-index:-2;
   pointer-events: none;
-  transform: translate(-50%,-50%);
+  
 }
 
     ::slotted(*) {
