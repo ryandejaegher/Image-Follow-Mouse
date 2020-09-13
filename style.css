@@ -14,26 +14,6 @@ body {
 }
 
 
-button {
-    padding: 12px 24px;
-    background-color: black;
-    color: white;
-    border: 1px solid red;
-}
-
-img {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: -1;
-    object-fit: cover;
-    width: 400px;
-    height:400px;
-    transform: translate(-50%,-50%);
-
-
-}
-
 .block {
     position: absolute;
     top: 0%;
