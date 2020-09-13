@@ -56,7 +56,7 @@ img {
 div {
 position:absolute;
     top: 50%;
-  left: 50;
+  left: 50%;
   right: 0;
   bottom: 0;
   /* Change this to change image size */
