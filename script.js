@@ -161,7 +161,7 @@ class HoverText extends HTMLElement {
     }
 
     checkImageSize() {
-        this.shadowRoot.style.setProperty("--imageSize", this.getAttribute("imageSize"))
+        this.shadowRoot.body.style.setProperty("--imageSize", this.getAttribute("imageSize"))
     }
 
     connectedCallback() {
