@@ -10,7 +10,6 @@ template.innerHTML = /*html*/`
         background: black;
         color: white;
         font-family: monospace;
-   
         min-width: 6em;
         text-align: center;
     }
