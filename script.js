@@ -63,7 +63,7 @@ div {
         cursor: pointer;
     }
 
-    ::slotted(*:visited) {
+    ::slotted(*:v) {
         color: white;
     }
 </style>
