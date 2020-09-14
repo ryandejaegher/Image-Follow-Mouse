@@ -89,8 +89,8 @@ top: 0;
 
 // TODO: Add aspect ratio support for images 
 
-// TODO: See stop using top and left and switch to transform
-// TODO: 
+// TODO: See if I can stop using top and left and switch to transform
+// TODO: Add event listeners and consider adding a wrapper for the links
 
 
 
