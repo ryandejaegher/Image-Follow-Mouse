@@ -89,7 +89,8 @@ top: 0;
 
 // TODO: Add aspect ratio support for images 
 
-// TODO: See stop using top and left and switch to trans
+// TODO: See stop using top and left and switch to transform
+// TODO: 
 
 
 
