@@ -168,7 +168,7 @@ class HoverText extends HTMLElement {
         this.hoverImage.src = this.getAttribute('image');
         console.log(this.getAttribute("imageSize"))
         console.log(this.shadowRoot)
-        
+        this.checkImageSize()
     }
 }
 window.customElements.define('hover-text', HoverText);
