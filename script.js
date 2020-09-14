@@ -85,7 +85,7 @@ top: 0;
 
 <div><figure><img src=""></figure></div>
 `;
-TODO
+// TODO
 
 class HoverText extends HTMLElement {
     constructor() {
