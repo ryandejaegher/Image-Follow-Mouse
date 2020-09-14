@@ -57,6 +57,8 @@ div {
     ::slotted(*) {
         z-index: 10000;
         display: inline-block;
+        Lessons Learned, making our app with Web Components
+
     }
 </style>
 
