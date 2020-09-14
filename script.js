@@ -34,6 +34,8 @@ template.innerHTML = /*html*/`
 --aspect-ratio: 177%;
 }
 
+:host([])
+
 figure {
   position: relative;
   padding-bottom: var(--aspect-ratio);
