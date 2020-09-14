@@ -61,10 +61,7 @@ div {
         margin: 0;
         font-size: 24px;
         cursor: pointer;
-    }
-
-    ::slotted(*:v) {
-        color: white;
+        color: white
     }
 </style>
 
