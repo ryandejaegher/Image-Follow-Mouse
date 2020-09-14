@@ -87,7 +87,7 @@ top: 0;
 `;
 
 
-// TODO: Add 
+// TODO: Add aspect ratio support for images
 
 
 
