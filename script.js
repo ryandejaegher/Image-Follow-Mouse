@@ -62,6 +62,10 @@ div {
         font-size: 24px;
         cursor: pointer;
     }
+
+    ::slotted(*:visited) {
+        color: white;
+    }
 </style>
 
 <slot></slot>
