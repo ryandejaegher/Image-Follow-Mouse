@@ -71,7 +71,7 @@ div {
   right: 0;
   bottom: 0;
   /* Change this to change image size */
-  width: 25%; 
+  width: var(--imageSize);
   z-index:-2;
   pointer-events: none;
   
