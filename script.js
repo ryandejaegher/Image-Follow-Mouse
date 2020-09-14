@@ -148,6 +148,18 @@ class HoverText extends HTMLElement {
           this.removeAttribute('image');
         }
     }
+    get imageSize() {
+        return this.hasAttribute('imageSize');
+      }
+    
+      set imageSize(val) {
+        // Reflect the value of the imageSize property as an HTML attribute.
+        if (val) {
+          this.setAttribute('imageSize', val);
+        } else {
+          this.removeAttribute('imageSize');
+        }
+    }
 
     connectedCallback() {
         this.hoverImage.src = this.getAttribute('image');
