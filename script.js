@@ -14,11 +14,11 @@ template.innerHTML = /*html*/`
         text-align: center;
     }
     
-:host([aspect="1/1"])  {
+:host([aspect="1/1"]) figure {
 --aspect-ratio: 100%;
 }
 
-:host([aspect="16/9"]) fiure {
+:host([aspect="16/9"]) figure {
 --aspect-ratio: 56.25%;
 }
 
