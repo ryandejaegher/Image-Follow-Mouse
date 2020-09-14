@@ -14,7 +14,7 @@ template.innerHTML = /*html*/`
         text-align: center;
     }
     
-    :host([aspect="1/1"]) figure {
+:host([aspect="1/1"]) figure {
 --aspect-ratio: 100%;
 }
 
