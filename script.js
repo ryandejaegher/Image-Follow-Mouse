@@ -160,11 +160,15 @@ class HoverText extends HTMLElement {
         }
     }
 
+    checkImageSize() {
+        this.shadowRoot.querySelector('style').setProperty("--imageSize", this.getAttribute("imageSize"))
+    }
+
     connectedCallback() {
         this.hoverImage.src = this.getAttribute('image');
         console.log(this.getAttribute("imageSize"))
         console.log(this.shadowRoot)
-        this.shadowRoot.querySelector('style').setProperty("--imageSize", this.getAttribute("imageSize"))
+        
     }
 }
 window.customElements.define('hover-text', HoverText);
