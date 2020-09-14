@@ -14,8 +14,20 @@ template.innerHTML = /*html*/`
         text-align: center;
     }
     
-:host([aspect-ratio="16/9"]) {
-    --as
+    :host([aspect="1/1"]) figure {
+--aspect-ratio: 100%;
+}
+
+:host([aspect="16/9"]) figure {
+--aspect-ratio: 56.25%;
+}
+
+:host([aspect="3/2"]) figure {
+--aspect-ratio: 66.7%;
+}
+
+:host([aspect="4/3"]) figure {
+--aspect-ratio: 75%;
 }
 figure {
   position: relative;
