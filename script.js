@@ -163,6 +163,7 @@ class HoverText extends HTMLElement {
     connectedCallback() {
         this.hoverImage.src = this.getAttribute('image');
         console.log(this.getAttribute("imageSize"))
+        console.log(this.shadowRoot)
         this.shadowRoot.querySelector('style').setProperty("--imageSize", this.getAttribute("imageSize"))
     }
 }
