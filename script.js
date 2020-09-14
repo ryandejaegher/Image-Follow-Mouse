@@ -14,7 +14,9 @@ template.innerHTML = /*html*/`
         text-align: center;
     }
     
-:host([as])
+:host([aspect-ratio="16/9"]) {
+    --as
+}
 figure {
   position: relative;
   padding-bottom: 100%;
