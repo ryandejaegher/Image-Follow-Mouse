@@ -11,6 +11,7 @@ template.innerHTML = /*html*/`
         color: white;
         font-family: sans-serif;
         font-weight: 300;
+        letter-spacing:3px;
         min-width: 6em;
         text-align: center;
     }
