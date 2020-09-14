@@ -5,6 +5,7 @@ template.innerHTML = /*html*/`
 
 <style>
     :host {
+        --imageSize: 50%;
         display: inline-block;
         background: black;
         color: white;
