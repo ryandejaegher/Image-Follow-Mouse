@@ -58,6 +58,7 @@ div {
         z-index: 10000;
         display: inline-block;
         padding: 12px 36px;
+        margin: 0;
     }
 </style>
 
