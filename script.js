@@ -29,9 +29,10 @@ template.innerHTML = /*html*/`
 :host([aspect="4/3"]) figure {
 --aspect-ratio: 75%;
 }
+
 figure {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: var(--aspect-ratio);
   display: block;
   visibility:hidden;
   top: window.innerHeight/2 + 'px';
