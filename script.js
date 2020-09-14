@@ -9,7 +9,7 @@ template.innerHTML = /*html*/`
         display: inline-block;
         background: black;
         color: white;
-        font-family: monospace;
+        font-family: sans-serif;
         min-width: 6em;
         text-align: center;
     }
