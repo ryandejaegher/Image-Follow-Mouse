@@ -30,6 +30,10 @@ template.innerHTML = /*html*/`
 --aspect-ratio: 75%;
 }
 
+:host([aspect="4/3"]) figure {
+--aspect-ratio: 75%;
+}
+
 figure {
   position: relative;
   padding-bottom: var(--aspect-ratio);
