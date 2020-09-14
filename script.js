@@ -7,7 +7,7 @@ template.innerHTML = /*html*/`
     :host {
         --imageSize: 50%;
         display: inline-block;
-        background: ##fbb88d;
+        background: #fbb88d;
         color: white;
         font-family: serif;
         font-weight: 300;
