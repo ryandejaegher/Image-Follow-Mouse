@@ -30,8 +30,8 @@ template.innerHTML = /*html*/`
 --aspect-ratio: 75%;
 }
 
-:host([aspect="4/3"]) figure {
---aspect-ratio: 75%;
+:host([aspect="9/16"]) figure {
+--aspect-ratio: 177%;
 }
 
 figure {
