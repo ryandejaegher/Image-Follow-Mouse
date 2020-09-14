@@ -14,7 +14,7 @@ template.innerHTML = /*html*/`
         text-align: center;
     }
     
-
+:host([as])
 figure {
   position: relative;
   padding-bottom: 100%;
