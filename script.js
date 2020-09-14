@@ -60,6 +60,7 @@ div {
         padding: 12px 36px;
         margin: 0;
         font-size: 24px;
+        
     }
 </style>
 
