@@ -57,7 +57,7 @@ div {
     ::slotted(*) {
         z-index: 10000;
         display: inline-block;
-        paading:12px
+        padding: 12px 36px;
     }
 </style>
 
