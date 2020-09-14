@@ -68,7 +68,7 @@ div {
   right: 0;
   bottom: 0;
   /* Change this to change image size */
-  width: 100%; 
+  width: 25%; 
   z-index:-2;
   pointer-events: none;
   
