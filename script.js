@@ -13,6 +13,7 @@ template.innerHTML = /*html*/`
         min-width: 6em;
         text-align: center;
     }
+    
 
 figure {
   position: relative;
