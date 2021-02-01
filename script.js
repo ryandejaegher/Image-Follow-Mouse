@@ -123,7 +123,7 @@ class HoverText extends HTMLElement {
                 figure.style.opacity = '0';
 
                 figure.style.top = this.getBoundingClientRect().y + 'px';
-
+            //wow 
         })
     }
 
